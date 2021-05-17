@@ -1,15 +1,17 @@
 import io.restassured.RestAssured;
+import lombok.Builder;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pojo.User;
-import resources.TestData;
+import resources.TestDataForRequests;
 
 import java.io.*;
+import java.util.Locale;
 import java.util.Properties;
 
 import static io.restassured.RestAssured.*;
 
-public class Basic extends TestData {
+public class Basic extends TestDataForRequests {
     Properties env = new Properties();
     String id = "";
 
@@ -21,19 +23,17 @@ public class Basic extends TestData {
 
     @Test(dataProvider = "valuesForGetRequestBody")
     public void testGetRequest(String name, String job){
-        RestAssured.baseURI = env.get("baseURL").toString();
+        RestAssured.baseURI = env.get("baseURL_Old").toString();
 
-        User user = new User();
-        user.setName(name);
-        user.setJob(job);
+        User user = User.builder().name(name).job(job).build();
 
         User resAsUserClass =   given().
                                     contentType("application/json").
                                     body(user).
                                 when().
                                     post("/api/users").
-                                    then().
-                                statusCode(201).extract().response().as(User.class);
+                                then().
+                                    statusCode(201).extract().response().as(User.class);
 
         Assert.assertEquals(resAsUserClass.getName(),"API");
         id = resAsUserClass.getId();
@@ -44,9 +44,7 @@ public class Basic extends TestData {
 
         RestAssured.baseURI = env.get("baseURL").toString();
 
-        User user = new User();
-        user.setName(name);
-        user.setJob(job);
+        User user = User.builder().name(name).job(job).build();
 
         User resAsUserClass =   given().
                                     contentType("application/json").
