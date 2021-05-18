@@ -1,4 +1,6 @@
 APIReqres/target/
+APIReqres/allure-report/
+APIReqres/allure-results/
 
 # Packages #
 ############
