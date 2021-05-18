@@ -16,9 +16,10 @@ public class TestDataForTests {
         return new Object[][]{ {new Random().nextInt(999), "This test is to verify post", "Tester"}};
     }
 
-    @DataProvider(name="verifyAddNewComment")
+    @DataProvider(name="verifyAddAndEditComment")
     public Object[][] getDataForAddNewCommentBody() {
-        return new Object[][]{ {1, "This is a comment", 1}};
+        return new Object[][]{ {new Random().nextInt(999), "This is a comment", 1}};
     }
+
 
 }
