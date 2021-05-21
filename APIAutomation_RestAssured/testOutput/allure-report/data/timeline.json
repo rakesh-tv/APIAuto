@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Rakeshs-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "3686@Rakeshs-MacBook-Pro.local.TestNG-test=All-1(16)",
+      "children" : [ {
+        "name" : "verifyAddNewProfile",
+        "uid" : "c7c612e14c405707",
+        "parentUid" : "0c229243c64b952136e4f0b814f17bc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621578288106,
+          "stop" : 1621578290338,
+          "duration" : 2232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "pojo.jsonMock.Profiles@628cf408" ]
+      } ],
+      "uid" : "0c229243c64b952136e4f0b814f17bc0"
+    } ],
+    "uid" : "4684fbb4b0ae58fb215e3d76ce924fc2"
+  } ]
+}

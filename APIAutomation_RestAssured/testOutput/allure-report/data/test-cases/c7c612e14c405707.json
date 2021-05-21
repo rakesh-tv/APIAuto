@@ -1,0 +1,81 @@
+{
+  "uid" : "c7c612e14c405707",
+  "name" : "verifyAddNewProfile",
+  "fullName" : "tests.jsonMock.TestProfiles.verifyAddNewProfile",
+  "historyId" : "4323066cf8f46efb657b4b4597656ae3",
+  "time" : {
+    "start" : 1621578288106,
+    "stop" : 1621578290338,
+    "duration" : 2232
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "deleteProfile",
+    "time" : {
+      "start" : 1621578290387,
+      "stop" : 1621578290458,
+      "duration" : 71
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.jsonMock.TestProfiles"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.jsonMock.TestProfiles"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAddNewProfile"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Tests"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.jsonMock.TestProfiles"
+  }, {
+    "name" : "host",
+    "value" : "Rakeshs-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3686@Rakeshs-MacBook-Pro.local.TestNG-test=All-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "pojo.jsonMock.Profiles@628cf408"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7c612e14c405707.json",
+  "parameterValues" : [ "pojo.jsonMock.Profiles@628cf408" ]
+}

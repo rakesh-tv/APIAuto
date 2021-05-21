@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API Tests",
+    "children" : [ {
+      "name" : "All",
+      "children" : [ {
+        "name" : "tests.jsonMock.TestProfiles",
+        "children" : [ {
+          "name" : "verifyAddNewProfile",
+          "uid" : "c7c612e14c405707",
+          "parentUid" : "47523d66168e4e3b6783c8546337e063",
+          "status" : "passed",
+          "time" : {
+            "start" : 1621578288106,
+            "stop" : 1621578290338,
+            "duration" : 2232
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "pojo.jsonMock.Profiles@628cf408" ]
+        } ],
+        "uid" : "47523d66168e4e3b6783c8546337e063"
+      } ],
+      "uid" : "08d82c3421428d84874fba8fe76f604a"
+    } ],
+    "uid" : "faa16f93fe4deb7d0d82100941f2eb29"
+  } ]
+}

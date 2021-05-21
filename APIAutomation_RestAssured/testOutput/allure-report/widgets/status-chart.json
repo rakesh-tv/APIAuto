@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c7c612e14c405707",
+  "name" : "verifyAddNewProfile",
+  "time" : {
+    "start" : 1621578288106,
+    "stop" : 1621578290338,
+    "duration" : 2232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,6 +1,8 @@
 package tests.jsonMock;
 
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
@@ -8,16 +10,19 @@ import org.testng.annotations.Test;
 import pojo.jsonMock.Profiles;
 import requests.jsonMock.Profile;
 
+import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Random;
 
 public class TestProfiles {
 
+    private static Logger log = LogManager.getLogger(TestProfiles.class.getName());
     Profile profile = new Profile();
     Integer id;
 
     @Test(dataProvider = "verifyAddNewProfile")
     public void verifyAddNewProfile(Profiles newProfile){
+
         //add new profile
         id = newProfile.getId();
         Response res = profile.addNewProfile(newProfile.getName(), id);

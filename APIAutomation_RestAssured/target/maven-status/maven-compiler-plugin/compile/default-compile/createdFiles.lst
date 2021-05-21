@@ -1,8 +1,0 @@
-resources/TestDataForTests.class
-pojo/Profiles.class
-Utils/Util.class
-pojo/Posts$PostsBuilder.class
-pojo/Profiles$ProfilesBuilder.class
-pojo/Comments$CommentsBuilder.class
-pojo/Comments.class
-pojo/Posts.class

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.jsonMock.TestProfiles",
+    "children" : [ {
+      "name" : "verifyAddNewProfile",
+      "uid" : "c7c612e14c405707",
+      "parentUid" : "f6e24c0d3f63afe00cbd9b5bfdcdc2b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621578288106,
+        "stop" : 1621578290338,
+        "duration" : 2232
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "pojo.jsonMock.Profiles@628cf408" ]
+    } ],
+    "uid" : "tests.jsonMock.TestProfiles"
+  } ]
+}

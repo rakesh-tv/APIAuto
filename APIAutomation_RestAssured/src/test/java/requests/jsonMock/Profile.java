@@ -3,13 +3,18 @@ package requests.jsonMock;
 import Utils.Util;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import pojo.jsonMock.Profiles;
+import tests.jsonMock.TestProfiles;
 
 import static io.restassured.RestAssured.given;
 
 public class Profile {
+    private static Logger logger = LogManager.getLogger(TestProfiles.class.getName());
 
     public Response addNewProfile(String profileName, Integer id) {
+        logger.trace("\n------------"+Thread.currentThread().getStackTrace()[1].getMethodName()+"-------------\n");
         RestAssured.baseURI = Util.getBaseURL();
 
         Profiles newProfile = Profiles.builder().name(profileName).id(id).build();
@@ -21,6 +26,7 @@ public class Profile {
                                     post("/profiles").
                                 then().
                                     extract().response();
+        logger.info("\n Response:\n"+res.asString());
         return res;
 
     }

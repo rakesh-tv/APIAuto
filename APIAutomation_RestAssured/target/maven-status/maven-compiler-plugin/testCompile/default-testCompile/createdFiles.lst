@@ -1,6 +1,0 @@
-tests/TestPosts.class
-tests/TestProfiles.class
-requests/Post.class
-tests/TestComments.class
-requests/Comment.class
-requests/Profile.class
