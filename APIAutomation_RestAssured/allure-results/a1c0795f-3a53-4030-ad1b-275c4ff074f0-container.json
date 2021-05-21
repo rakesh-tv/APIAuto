@@ -1,0 +1,1 @@
+{"uuid":"a1c0795f-3a53-4030-ad1b-275c4ff074f0","name":"Json mock","children":["84dc0abd-cd7e-4ac3-8fe3-8db2a0b08714"],"befores":[],"afters":[{"name":"deleteBooking","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1621568660245,"stop":1621568663939}],"links":[],"start":1621568650546,"stop":1621568663940}
