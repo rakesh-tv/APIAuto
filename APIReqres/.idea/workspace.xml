@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b098c03-6b4d-446a-b150-14baa422e95e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIReqres.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Comments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Posts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Profiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/TestDataForTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Profile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestComments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestPosts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestProfiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sLCOwj271puJS9PzsdEkMb9Mfj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/Requests" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="resources" />
+      <recent name="Requests" />
+      <recent name="pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/Requests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/rakeshy/Documents/APIReqres/testng.xml">
+    <configuration name="Basic" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_RestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Basic" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.Post" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/rakeshy/Documents/APIReqres/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_RestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomation_RestAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/rakeshy/Documents/APIReqres/testng.xml" />
+        <item itemvalue="TestNG.Post" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.Basic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b098c03-6b4d-446a-b150-14baa422e95e" name="Default Changelist" comment="" />
+      <created>1620642457715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620642457715</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="23" key="#Project_Structure" timestamp="1620813069401">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="208" y="23" key="#Project_Structure/0.23.1440.795@0.23.1440.795" timestamp="1620813069401" />
+    <state x="184" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620810021153">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="184" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.795@0.23.1440.795" timestamp="1620810021153" />
+    <state x="100" y="123" width="1240" height="595" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1621248987136">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="100" y="123" width="1240" height="595" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.795@0.23.1440.795" timestamp="1621248987136" />
+    <state x="533" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1621228691229">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="533" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1440.795@0.23.1440.795" timestamp="1621228691229" />
+    <state x="354" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1621328667154">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="354" y="352" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.795@0.23.1440.795" timestamp="1621328667154" />
+    <state x="490" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1621328680580">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="490" y="309" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.795@0.23.1440.795" timestamp="1621328680580" />
+    <state width="419" height="466" key="DebuggerActiveHint" timestamp="1620736068222">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="419" height="466" key="DebuggerActiveHint/0.23.1440.795@0.23.1440.795" timestamp="1620736068222" />
+    <state x="100" y="123" width="1240" height="595" key="DiffContextDialog" timestamp="1621228439655">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="100" y="123" width="1240" height="595" key="DiffContextDialog/0.23.1440.795@0.23.1440.795" timestamp="1621228439655" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1621428073547">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1621428073547" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1621428073546">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1621428073546" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1621428073546">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1621428073546" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1621428073547">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1621428073547" />
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom" timestamp="1620829468334">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1620829468334" />
+    <state width="1398" height="253" key="GridCell.Tab.1.center" timestamp="1620829468333">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1620829468333" />
+    <state width="1398" height="253" key="GridCell.Tab.1.left" timestamp="1620829468333">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1620829468333" />
+    <state width="1398" height="253" key="GridCell.Tab.1.right" timestamp="1620829468333">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="253" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1620829468333" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1621233580709">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1621233580709" />
+    <state x="385" y="142" width="670" height="676" key="search.everywhere.popup" timestamp="1621237103960">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state x="385" y="142" width="670" height="676" key="search.everywhere.popup/0.23.1440.795@0.23.1440.795" timestamp="1621237103960" />
+  </component>
+</project>
