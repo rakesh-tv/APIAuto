@@ -1,6 +1,6 @@
-APIReqres/target/
-APIReqres/allure-report/
-APIReqres/allure-results/
+APIAutomation_RestAssured/target/
+APIAutomation_RestAssured/allure-report/
+APIAutomation_RestAssured/allure-results/
 
 # Packages #
 ############
